@@ -1,0 +1,99 @@
+.comment__body {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.comment__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #22343D;
+    padding-bottom: 10px;
+}
+
+.comment__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #22343D;
+
+}
+
+.comment__list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 65px;
+    padding-top: 50px;
+}
+
+.comment__item {
+    text-align: left;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.bxs-star {
+    color: #F3CD03;
+}
+
+.bx-star {
+    color: #F3CD03;
+}
+
+.commnet__subtext {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    padding-top: 15px;
+}
+
+.commnet__box {
+    display: flex;
+    column-gap: 10px;
+    padding-top: 15px;
+}
+
+.commnet__box-spanone {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #02897A;
+}
+
+.commnet__box-spantwo {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+@media screen and (max-width: 768px){
+    .comment__body{
+        align-items: center;
+    }
+
+    .comment__list{
+        display: flex;
+        flex-direction: column;
+        row-gap: 35px;
+    }
+
+    .comment__item{
+        max-width: 330px;
+        margin: 0 auto;
+    }
+}
